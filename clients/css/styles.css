@@ -43,7 +43,7 @@ body {
 }
 
 .text-center {
-  margin-top: 250px;
+  margin-top: 275px;
 }
 
 @media (min-width: 768px) {
@@ -69,6 +69,16 @@ body {
   background-color: #09669E;
   border-color: transparent;
 }
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #1ABBB6;
+  border-color: transparent;
+ }
+
+.btn-primary:focus {
+  box-shadow: none;
+} 
 
 .masthead {
   position: relative;
