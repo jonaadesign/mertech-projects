@@ -21,57 +21,100 @@
 
 <body>
 
-  <div class="d-flex" id="wrapper">
-    <!-- Sidebar -->
-    <div class="bg-light" id="sidebar-wrapper">
-      <div class="sidebar-heading">Projects </div>
-      <div class="list-group list-group-flush">
-        <a href="http://demo.mertech.com/load-plus/#!/auth/login/" target="_blank"
-          class="list-group-item list-group-item-action">FMS</a>
-        <a href="https://jrenee.com" target="_blank" class="list-group-item list-group-item-action">JRENEE</a>
-        <a href="https://lamourdespieds.com/" target="_blank" class="list-group-item list-group-item-action">LDP</a>
-        <a href="https://portal-redesign.mertechdata.com/#/auth/login" target="_blank"
-          class="list-group-item list-group-item-action">MERTECH PORTAL</a>
-        <a href="http://demo.mertech.com/simply-royalties/public/login" target="_blank"
-          class="list-group-item list-group-item-action">SIMPLY ROYALTIES</a>
-        <a href="http://45.79.2.151/carrier-page/softactics-client-dist/#/public/login" target="_blank"
-          class="list-group-item list-group-item-action">SOFTACTICS</a>
-      </div>
-    </div><!-- /#sidebar-wrapper -->
-
-    <!-- Page Content -->
-    <div id="page-content-wrapper">
-      <div class="container-fluid">
-        <header class="masthead">
-          <div class="d-flex h-20 align-items-center">
-            <nav class="navbar navbar-expand-lg navbar-dark">
-              <button class="btn btn-primary" id="menu-toggle"><span class="navbar-toggler-icon"></span></button>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-            </nav>
+  <div class="header" id="wrapper">
+    <!-- Masthead -->
+    <header class="masthead">
+      <div class="container h-50">
+        <div class="row h-100 align-items-center justify-content-center text-center">
+          <div class="col-lg-10 align-self-end">
+            <a class="logo" alt="mertech data"><img src="images/logo-m.png"></a>
+            <h1 class="text-uppercase text-white">Projects</h1>
+            <hr class="divider my-4">
           </div>
-          <div class="mx-auto text-center">
-            <img src="images/logo.png" alt="mertech data">
-          </div>
-        </header>
+        </div>
       </div>
-    </div>
+    </header>
   </div>
   <!-- /#wrapper -->
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Portfolio Section -->
+  <section id="portfolio">
+    <div class="container-fluid p-0">
+      <div class="row no-gutters">
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="http://demo.mertech.com/load-plus/#!/auth/login/" target="_blank">
+            <img class="img-fluid" src="images/portfolio/thumbnails/1.jpg" alt="">
+            <div class="portfolio-box-caption">
+              <div class="project-name">
+                FMS
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="https://jrenee.com/" target="_blank">
+            <img class="img-fluid" src="images/portfolio/thumbnails/2.jpg" alt="">
+            <div class="portfolio-box-caption">
+              <div class="project-name">
+                JRENEE
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="https://lamourdespieds.com/">
+            <img class="img-fluid" src="images/portfolio/thumbnails/3.jpg" alt="">
+            <div class="portfolio-box-caption">
+              <div class="project-name">
+                LDP
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="https://portal-redesign.mertechdata.com/#/auth/login">
+            <img class="img-fluid" src="images/portfolio/thumbnails/4.jpg" alt="">
+            <div class="portfolio-box-caption">
+              <div class="project-name">
+                MERTECH PORTAL
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="http://demo.mertech.com/simply-royalties/public/login">
+            <img class="img-fluid" src="images/portfolio/thumbnails/5.jpg" alt="">
+            <div class="portfolio-box-caption">
+              <div class="project-name">
+                SIMPLY ROYALTIES
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="http://45.79.2.151/carrier-page/softactics-client-dist/#/public/login">
+            <img class="img-fluid" src="images/portfolio/thumbnails/6.jpg" alt="">
+            <div class="portfolio-box-caption p-3">
+              <div class="project-name">
+                SOFTACTICS
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  <!-- Menu Toggle Script -->
-  <script>
-    $("#menu-toggle").click(function (e) {
-      e.preventDefault();
-      $("#wrapper").toggleClass("toggled");
-    });
-  </script>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="small text-center text-muted">Copyright &copy; 2019 - Mertech</div>
+    </div>
+  </footer>
+
+
+
+
 
 </body>
 
